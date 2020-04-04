@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" lang="en">
+	<meta name="keywords" content= "Square Dance, caller, dancing">
+	<meta name= "Author" content= "Robert Sax">
+	<meta name="calendar" content=" calendar css and JS provided by 'Code Boxx'">
+	<meta content= "Photo(Seattle)by oakie on Unsplash">
+<title> Susanne Jones Square Dance Caller</title>
+	<link href="../stylesheets/format_3.css" rel="stylesheet" type= "text/css">
+	<link href="../stylesheets/styles_3.css" rel="stylesheet" type= "text/css">
+	<link href="../stylesheets/effects_3.css" rel="stylesheet" type="text/css">
+	<script>
+		function bigOne(x){
+			x.style.height="350px";
+			x.style.width="500px";
+			x.style.marginTop="1em";
+			x.style.marginLeft="12em";
+			document.getElementById("women").innerHTML="(I'm in the back!!)";
+			women.style.fontSize="2em";
+			women.style.marginTop="12em";
+			women.style.marginLeft="12em";
+		}
+
+		function bigTwo(x){
+			x.style.height="350px";
+			x.style.width="500px";
+			x.style.marginTop="8em";
+			x.style.marginLeft="22em";
+			document.getElementById("calling").innerHTML="I'm Calling at the Washington State Festival!!";
+			calling.style.fontSize="1.5em";
+			calling.style.marginTop="21em";
+			calling.style.marginLeft="16em";
+		}
+		function bigThree(x){
+			x.style.height="350px";
+			x.style.width="500px";
+			x.style.marginTop="12em";
+			x.style.marginLeft="14em";
+			document.getElementById("First").innerHTML="My FirstDance!!";
+			First.style.fontSize="1.8em";
+			First.style.marginTop="19em";
+			First.style.marginLeft="14em";
+			
+			
+		}
+		function bigOneNorm(x){
+			x.style.height="150px";
+			x.style.width="250px";
+			x.style.marginTop="1em";
+			x.style.marginLeft="6em";
+			document.getElementById("women").innerHTML="Women in Calling Institute";
+			women.style.fontSize="1em";
+			women.style.marginTop="10.5em";
+			women.style.marginLeft="6em";
+		}
+		
+		function bigTwoNorm(x){
+			x.style.height="150px";
+			x.style.width="250px";
+			x.style.marginTop="1em";
+			x.style.marginLeft="38em";
+			document.getElementById("calling").innerHTML="Calling at the Washington State Festival<br> Puyallup, Wa. June 2019";
+			calling.style.fontSize="1em";
+			calling.style.marginTop="11em";
+			calling.style.marginLeft="38em";
+		}
+		function bigThreeNorm(x){
+			x.style.height="150px";
+			x.style.width="250px";
+			x.style.marginTop="17em";
+			x.style.marginLeft="6em";
+			document.getElementById("First").innerHTML=" My first dance, South Sound Squares <br>Nov. 17 2018";
+			First.style.fontSize="1em";
+			First.style.marginTop="27em";
+			First.style.marginLeft="6em";
+		}
+
+	</script>
+</head>
+<body>
+	<div class="grid-container">
+
+	   <div class="item-1"> 
+		   <a id="FB" href="https://www.facebook.com/profile.php?id=100012647924599"> 
+			<img src="../images/icons8-facebook-48.png" alt="facebook link"></a> 
+		   <h1 id= "SJ"> Susanne Jones  </h1>
+		   <h1 id="SDC"> Square Dance Caller</h1>
+	   </div>
+	
+		<div class="item-2">	
+	<nav class="sidenav">
+		<ul>	
+			<li><a  id="home"  href="Index_3.html"  alt="Home Link"> Home</a></li>
+			<li><a  id="pics" class= "current" href="../Pics_3.html" alt=" contact me link">My Pics</a></li>
+		    <li><a  id="calendar" href="Calendar_3.html"  alt="my calendar link"> Calendar</a></li>
+			<li><a id="about" href="About_3.html" alt=" about me link">About Me</a></li>
+			<li><a  id="contact"  href="Contact_3.html" alt=" contact me link">Contact Me</a></li>
+		</ul>
+	</nav>
+		  </div>
+	<div class="item-4">
+				
+	<img id="Head" src="../images/HeadShot--200x200.jpg" alt=" Susanne Headshot">
+	</div>
+	
+		<div class="item-3">
+			
+	      <img id="Sea" src="../images/940-x-300-Seattle.jpg" alt="Seattle at Night">
+	</div>
+		<h3> ASCAP/BMI Licensed </h3>
+		<div class="item-8">
+
+		   <img onmouseover="bigOne(this)" onmouseout="bigOneNorm(this)" id="wici"  src="../images/2019-04-14-WICI-3678.JPG" alt="Women in Calling Institute">
+			<h6 id="women" style.font-size="1.5em">Women in Calling Institute</h6>
+		
+		   <img onmouseover="bigTwo(this)" onmouseout="bigTwoNorm(this)" id="state" src="../images/facebook_1585357914610.jpg" alt="2019 Washington State Festival">
+		       <h6 id="calling">Calling at the Washington State Festival<br> Puyallup, Wa  June 2019</h6> 
+				
+		  <img onmouseover="bigThree(this)" onmouseout="bigThreeNorm(this)" id="first" src="../images/facebook_1585358050311.jpg" alt="South Sound Squares">
+			   <h6 id="First"> My first dance, South Sound Squares <br>November 17, 2018</h6>
+		
+		</div>	
+
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.current{
+	background-color:darkBlue;
+	color:white;
+}
+
+li a:hover{
+	background-color:#2a3e62;
+	height:30px;
+	width:140px;
+}
+li a:active{
+background-color:darkblue;	
+}

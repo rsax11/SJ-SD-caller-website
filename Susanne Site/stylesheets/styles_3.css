@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background-color: #8abae6;	
+	
+}
+
+#SJ{
+	color:#2a3e62;
+	font-size:30pt;	
+}
+
+#SDC{
+	color:#2a3e62;
+	font-size:30pt;
+}
+
+.sidenav{
+	font-family:"Curlz MT";
+    font-size:20pt;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li a{
+	color:#cbeff8	;	
+	border-radius:40px;
+	background-color: #3d639a;
+}
+/* Index page*/
+#CenterText{
+font-size:1.5em;
+}
+/* About page*/
+#life{
+	text-indent:20px;
+}
+#lab{
+	font-size:1.5em; 
+	text-decoration: underline;
+	color:#2a3e62;
+	background-color:#8abae6;
+}
+#GCA{
+	font-size:1.5em;
+	text-decoration: underline;
+	color:#2a3e62;
+	background-color:#8abae6;
+}
+#NWCA{
+	font-size:1.5em;
+	text-decoration: underline;
+	color:#2a3e62;
+	background-color:#8abae6;
+}
+#MBTCCA{
+	font-size:1.5em; 
+	color:#2a3e62;
+	background-color:#8abae6;
+}
+/*contact page*/
+#hire{
+	font-size: 1.5em;
+}
+
+#mail{
+	font-size:1.1em;
+}
+/* end contact page*/
+h1{
+	font-size:1.5em;		
+}
+h2{
+	font-size:2em;
+}
+h4{
+	font-size:1.5em;
+}
+h5{
+	font-size:1.5em;
+}
+h6{
+	font-size:1em;
+}
+

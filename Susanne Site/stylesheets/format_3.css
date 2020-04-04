@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.grid-container {
+  display: grid;
+   grid-template-columns:360px auto auto 250px;
+   grid-template-rows: 200px 400px auto auto 50px;
+}
+/* start of header contents*/
+.item-1{
+	display:grid;
+	grid-column:1/3;	
+	grid-row:1/2;
+}
+
+#FB{
+	height:5px;
+	width:5px;
+}
+#SJ{
+	margin-left:3em;
+	margin-top:2px;
+	font-family:"Curlz MT";
+	transform: skewY(-15deg);
+	height:.25em;
+}
+
+#SDC{
+	
+	margin-left:6em;
+	margin-top:2px;
+	width:330px;
+	font-family:"Curlz MT";
+	transform: skewY(-15deg);
+}
+
+.item-2{
+	
+	display:grid;
+	grid-column:1/2;
+	grid-row: 2/3 ;
+    z-index: 1;
+}
+
+.sidenav{
+	
+	width:200px;
+	margin-top:1em;
+	margin-left:5px;	
+}
+
+li a{
+	text-decoration: none;
+	display:block;
+	height:20px;
+	width:120px;
+	padding-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+.item-4{
+	display:grid;
+	grid-column:4/5;
+	grid-row:1/3;	
+}
+
+#Head{
+	height:200px;
+	width:200px; 
+	margin-top:3.5em;
+    z-index:1;
+	
+}
+.item-3{
+	display:grid;
+	grid-column:1/5;
+	grid-row:2/3;
+}
+#Sea{   
+    margin-left:10px;	
+    width:98%;
+	height:400px;
+}
+/* end of header contents*/
+/* stert of main content*/
+/*Index page content*/
+.item-5{
+	display:grid;
+	grid-column-start: 1;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+#Full{
+	
+	height:400px;
+	width:250px;
+	flex-shrink:1;
+	margin-left:10px; 
+	margin-top: 20px;
+}
+
+.item-6{
+	
+	display:grid;
+    grid-column-start: 2;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:4;
+	text-align:center;
+	margin-left:1em;
+}
+h2{
+	margin-top:3em;
+}
+h3{
+	margin-top:12em;
+    margin-left:4em;
+}
+h4{
+	margin-left:15em;
+}
+
+h5{
+	margin-top:40px;
+	margin-left:15em;
+}
+
+#CenterText{
+	margin-bottom:2em;	
+}
+
+.item-7{
+	display:grid;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:4;
+	margin-top:5em;
+	margin-left:1em; 
+}
+#SDLogo{
+	height: 200px;
+	width:200px;
+}
+/* end Index page content*/
+/*start of Pics page content*/
+.item-8{
+	display:grid;
+	grid-column:1 / 5;
+	grid-row:3/ 5;
+	
+}
+#wici{
+	grid-column:1/4;
+	grid-row:3/4;
+	height:150px;
+	width:250px;
+	margin-top:1em;
+	margin-left:6em;
+	z-index:1;
+}
+/*caption*/
+#women{
+	grid-column:1/4;
+	grid-row:3/4;
+	margin-top:10.5em;
+	margin-left:6em;
+	z-index:1;
+}
+
+#state{
+	grid-column:3/5;
+	grid-row:3/5;
+	height:150px;
+	width:250px;
+	margin-top:1em;
+	margin-left:38em;
+}
+/*caption*/
+#calling{
+	
+	grid-column:3/5;
+	grid-row:3/5;
+	margin-top:11em;
+	margin-left:38em;
+	
+}
+
+#first{
+	grid-column:1/4;
+	grid-row:3/5;
+	height:150px;
+	width:250px;
+	margin-top:17em;
+	margin-left:6em;
+}
+/*caption*/
+#First{
+	
+	grid-column:1/4;
+	grid-row:3/5;
+	margin-top:27em;
+	margin-left:6em;
+}
+/* end of Pics page content*/
+/*start of About page content*/
+
+.item-9{
+	display:grid;
+	grid-column:1/5;
+		grid-row:3/5;
+	margin-left:3em;
+}
+#lab{
+	
+	width:400px;
+	margin-top:10px;
+	margin-left:10em;
+}
+#GCA{
+	width:400px;
+	margin-left:10em;
+}
+#NWCA{
+	width:400px;
+	margin-left:10em
+}
+#MBTCCA{
+	padding-top: 20px;
+	width:600px;
+	margin-left:7.5em
+}
+*
+/*start of Contact page content*/
+.item-10{
+	display:grid;
+	grid-row:3/5;
+	grid-column:1/5;
+	margin:10px;
+}
+#hire{
+	margin: 2em 0em 0em 10em ;
+	
+}
+#mail{
+	list-style-type: none;
+	width:220px;
+	height:20px;
+	margin:1em 0em 0em 25em;
+	
+	padding-top:1em;
+}
+/*end allpage content*/
+
+
+
+

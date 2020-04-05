@@ -90,7 +90,7 @@ SOFTWARE.
 }
 #cal-event textarea {
   display: block;
-  box-sizing: padding-box;
+  box-sizing:border-box;
   width: 50%;
   padding: 8px;
   margin: 0px 20px;
